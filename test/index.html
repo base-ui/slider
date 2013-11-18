@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../build/build.css"><style type="text/css">.component.slider {
+  height: 10px;
+  width: 100%;
+  background-color: #eee;
+}
+.component.slider >.handle {
+  width: 20px;
+  height: 20px;
+  background-color: #aaa;
+  top: -5px;
+}
+</style>
+  </head>
+  <body>
+    <div style="width: 500px;" class="container">
+      <div class="component slider">
+        <div class="handle"></div>
+      </div>
+    </div>
+    <script src="../build/build.js"></script>
+    <script>
+      var Slider = require('slider');
+      var slider = new Slider(document.querySelector('.component.slider'));
+    </script>
+  </body>
+</html>
