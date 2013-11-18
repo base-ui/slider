@@ -1,0 +1,27 @@
+{
+  "name": "slider",
+  "repo": "base-ui/slider",
+  "description": "Base slider ui component",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "base-ui/drag": "*",
+    "shallker-wang/eventy": "*",
+    "object-dom/object-document": "*",
+    "object-dom/object-element": "*",
+    "object-dom/object-element-position": "*",
+    "object-dom/object-element-style": "*",
+    "object-dom/object-element-selection": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "lib/slider.js",
+    "lib/handle.js"
+  ],
+  "styles": [
+    "css/slider.css"
+  ]
+}

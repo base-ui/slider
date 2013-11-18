@@ -1,0 +1,24 @@
+extends layout/default
+
+append styles
+  :stylus
+    .component.slider
+      height 10px
+      width 100%
+      background-color #EEE
+
+      >.handle
+        width 20px
+        height 20px
+        background-color #AAA
+        top -5px
+
+append content
+  .container(style="width: 500px;")
+    .component.slider
+      .handle
+
+append scripts
+  script
+    var Slider = require('slider');
+    var slider = new Slider(document.querySelector('.component.slider'));

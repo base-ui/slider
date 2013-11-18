@@ -1,0 +1,7 @@
+.component.slider {
+  position: relative;
+}
+.component.slider >.handle {
+  position: absolute;
+  cursor: pointer;
+}
